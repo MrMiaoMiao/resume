@@ -1,0 +1,37 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+%-------------------------------------------------------------------------------
+%	CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% Letter paper size by default, use 'a4paper' for a4 size
+\documentclass[11pt, letterpaper]{resume_template}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\input{personal_info.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makeheader
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+\makefooter{\today}{}{\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV CONTENT
+%-------------------------------------------------------------------------------
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/extracurricular.tex}
+\input{cv/honors.tex}
+\input{cv/presentation.tex}
+\input{cv/writing.tex}
+\input{cv/committees.tex}
+
+\end{document}
