@@ -88,7 +88,7 @@
 %% Page Layout
 % Configure page margins with geometry - uncomment the one being used
 % Small margins
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.2cm, footskip=.2cm}
 % Large margins
 %\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
 
